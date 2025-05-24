@@ -56,8 +56,8 @@ src/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/mohamedjamilirfan/Tickoria-Watch-Store.git
-cd Tickoria-Watch-Store
+git clone https://github.com/mohamedjamilirfan/tickoria-watch-store.git
+cd tickoria-watch-store
 ```
 
 ### 2. Install Dependencies
