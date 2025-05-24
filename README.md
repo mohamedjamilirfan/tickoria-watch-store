@@ -1,7 +1,6 @@
-
 # ⌚ Tickoria – Premium Watch E-Commerce Store
 
-**Tickoria** is a full-featured, responsive e-commerce web application built with **React**, **Vite**, and **Firebase**, deployed seamlessly via **Vercel**. It offers a premium shopping experience for wristwatch enthusiasts, combining elegant design with powerful functionality.
+**Tickoria** is a full-featured, responsive e-commerce web application built with **React**, **Vite**, and **Firebase**, and deployed via **Vercel**. It provides a premium user experience for wristwatch enthusiasts, blending sleek design with powerful functionality.
 
 ![Tickoria Logo](./src/assets/Tickoria.png)
 
@@ -9,56 +8,56 @@
 
 ## 🚀 Key Features
 
-- 🏠 **Home Page** – Eye-catching hero section with featured products
-- 🛍️ **Product Listings** – Browse watches with clean grid layout and filters
-- 🔎 **Product Details** – View high-resolution images and descriptions
-- 🛒 **Cart & Checkout** – Seamless cart and purchase flow
-- 🔐 **Authentication** – Sign Up / Sign In / Forgot Password (Firebase Auth)
-- 👤 **User Profile** – Manage personal info and view order history
-- 🧑‍💼 **Admin Panel** – Add, edit, and remove products
-- ⌚ **Limited Edition** – Curated collection of exclusive watches
-- 🌐 **Responsive Design** – Fully optimized for all screen sizes
-- ⚡ **Deployed on Vercel** – Fast, reliable global hosting
+- 🏠 **Home Page** – Hero section with call-to-action and highlights
+- 🛍️ **Product Listings** – Clean grid view with 12 watch products
+- 🔎 **Product Details** – Visual and descriptive information for each item
+- 🛒 **Cart & Checkout** – Add to cart, view, and complete purchases
+- 🔐 **User Authentication** – Sign Up / Sign In / Forgot Password (via Firebase)
+- 👤 **User Profile** – View/edit profile, manage orders
+- 🧑‍💼 **Admin Panel** – Add, update, and remove products
+- ⌚ **Limited Edition** – Display of curated luxury watches
+- 🌐 **Responsive Design** – Optimized across all screen sizes
+- ⚡ **Vercel Hosting** – Blazing fast and globally deployed
 
 ---
 
 ## 🛠 Tech Stack
 
-| Category         | Technology            |
-|------------------|------------------------|
-| **Frontend**     | React + Vite           |
-| **Auth**         | Firebase Authentication|
-| **Database**     | Firebase Firestore     |
-| **Storage**      | Firebase Storage       |
-| **Styling**      | CSS Modules + Bootstrap|
-| **Deployment**   | Vercel                 |
-| **Linting**      | ESLint                 |
+| Category           | Technology             |
+| ------------------ | ---------------------- |
+| **Frontend**       | React + Vite           |
+| **Authentication** | Firebase Auth          |
+| **Database**       | Firebase Firestore     |
+| **Storage**        | Firebase Storage       |
+| **Styling**        | CSS Modules, Bootstrap |
+| **Deployment**     | Vercel                 |
+| **Linting**        | ESLint                 |
 
 ---
 
-## 📁 Folder Structure
+## 📁 Project Structure
 
 ```
 src/
-├── assets/         # Watch images, logo, icons
-├── components/     # Navbar, Hero, ProductCards, Footer, etc.
-├── data/           # Static JSON/product data
-├── styles/         # Component-specific CSS modules
-├── utils/          # Helpers (e.g., localStorage)
+├── assets/            # Images and logos
+├── components/        # Navbar, Footer, Hero, ProductCards, etc.
+├── data/              # Static product or country data
+├── styles/            # CSS Modules for component styling
+├── utils/             # Utility functions (e.g., localStorage utils)
 ├── firebaseConfig.js  # Firebase project config
-├── App.jsx         # Main application logic
-└── main.jsx        # React entry point
+├── App.jsx            # App structure and routes
+└── main.jsx           # App entry point
 ```
 
 ---
 
-## 🔧 Setup Instructions
+## 🔧 Installation Guide
 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/tickoria.git
-cd tickoria
+git clone https://github.com/mohamedjamilirfan/Tickoria-Watch-Store.git
+cd Tickoria-Watch-Store
 ```
 
 ### 2. Install Dependencies
@@ -67,29 +66,30 @@ cd tickoria
 npm install
 ```
 
-### 3. Configure Firebase
+### 3. Set Up Firebase
 
-In `src/firebaseConfig.js`, add your Firebase config:
+Create `src/firebaseConfig.js` and add your Firebase project config:
 
 ```js
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT_ID.appspot.com",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: 'YOUR_API_KEY',
+  authDomain: 'YOUR_PROJECT_ID.firebaseapp.com',
+  projectId: 'YOUR_PROJECT_ID',
+  storageBucket: 'YOUR_PROJECT_ID.appspot.com',
+  messagingSenderId: 'YOUR_SENDER_ID',
+  appId: 'YOUR_APP_ID',
 };
 
 export default firebaseConfig;
 ```
 
-Enable:
-- Email/Password Authentication
-- Firestore Database
-- (Optional) Firebase Hosting
+Enable the following in your Firebase console:
 
-### 4. Run Locally
+- Authentication → Email/Password
+- Firestore Database
+- Firebase Storage (optional for product images)
+
+### 4. Start the Development Server
 
 ```bash
 npm run dev
@@ -99,33 +99,33 @@ npm run dev
 
 ## 📦 Deployment
 
-Tickoria is optimized for **Vercel**.
+Tickoria is ready for deployment via [Vercel](https://vercel.com).
 
-### Deploy with CLI:
+### Deploy Using Vercel CLI
 
 ```bash
 npm install -g vercel
 vercel
 ```
 
-Or connect your GitHub repo via [vercel.com](https://vercel.com/dashboard).
+Or deploy directly from GitHub using [vercel.com](https://vercel.com/dashboard).
+
+---
+
+## 🌍 Live Demo
+
+👉 [Visit Tickoria Online](https://tickoria-watch-store.vercel.app)
 
 ---
 
 ## 🧑 Author
 
-Developed by **[Mohamed Jamil Irfan]**  
-GitHub: [mohamedjamilirfan](https://github.com/mohamedjamilirfan/)
+Developed by **Mohamed Jamil Irfan**  
+GitHub: [@mohamedjamilirfan](https://github.com/mohamedjamilirfan)
 
 ---
 
 ## ⭐ Feedback & Contributions
 
-If you enjoyed using this project, please give it a ⭐ on GitHub!  
-Pull Requests and suggestions are welcome and appreciated.
-
----
-
-## 📥 Download Project
-
-To download this project as a ZIP file, [click here](https://github.com/your-username/tickoria/archive/refs/heads/main.zip).
+If you find this project useful, feel free to ⭐ it on GitHub!  
+Pull requests and issues are always welcome.
