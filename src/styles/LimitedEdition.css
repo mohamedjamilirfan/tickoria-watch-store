@@ -1,0 +1,32 @@
+@media (max-width: 450px) {
+    .col-md-6 .img-fluid {
+       max-width: 300px;
+    }
+    .col-md-6 {
+        width: 100%;
+    }
+    .lead {
+        font-size: 15px;
+    }
+    #text-md-start1 {
+        width: 310px;
+        margin-top: 25px;
+    }
+    .align-items-center {
+        justify-content: center;
+    }
+    /* #limited-edition {
+        height: 95vh;
+    } */
+  }
+
+  .img-fluid {
+    max-width: 400px;
+  }
+
+  
+  @media (min-width: 1000px) {
+    .align-items-center .col-md-6 {
+        width: 45%;
+    }
+  }

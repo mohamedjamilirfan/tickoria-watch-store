@@ -1,0 +1,59 @@
+.about-modern {
+  background: black;
+  color: #ffffff;
+}
+
+.about-modern h1,
+.about-modern h3,
+.about-modern h4,
+.about-modern h5 {
+  font-weight: 600;
+}
+
+.about-modern p {
+  font-size: 1.1rem;
+  color: #ccc;
+}
+
+.about-modern i {
+  color: #fff;
+}
+
+.gear-animation {
+  width: 100px;
+  animation: slowRotate 10s linear infinite;
+}
+
+#aboutimg {
+  display: flex;
+  justify-content: center;
+}
+
+#title {
+  margin-top: 3rem;
+  font-size: 2.5rem;
+}
+
+@media (max-width: 450px) {
+  #title {
+    font-size: 1.6rem;
+  }
+  #desc {
+    width: 310px;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+  }
+  #desc .lead {
+    text-align: justify;
+  }
+}
+
+@keyframes slowRotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

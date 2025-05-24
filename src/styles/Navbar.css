@@ -1,0 +1,59 @@
+/* Right-side sliding navbar */
+.offcanvas-collapse {
+  position: fixed;
+  top: 0;
+  right: -300px;
+  width: 250px;
+  height: 100vh;
+  background-color: #000;
+  transition: right 0.3s ease-in-out;
+  z-index: 1045;
+  padding: 1rem;
+}
+
+.offcanvas-collapse.open {
+  right: 0;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+@media (max-width: 991.98px) {
+  .offcanvas-collapse {
+    position: fixed;
+    top: 0;
+    right: -300px;
+    width: 250px;
+    height: 100vh;
+    background-color: #000;
+    transition: right 0.3s ease-in-out;
+    z-index: 1045;
+    padding: 1rem;
+  }
+
+  .offcanvas-collapse.open {
+    right: 0;
+  }
+
+  .navbar-toggler {
+    z-index: 1060;
+  }
+}
+
+/* Always visible on large screens */
+@media (min-width: 992px) {
+  .offcanvas-collapse {
+    position: static !important;
+    height: auto !important;
+    background-color: transparent !important;
+    right: auto !important;
+    transition: none !important;
+    padding: 0 !important;
+  }
+}
+
+.navbar-toggler {
+  border: none;
+}

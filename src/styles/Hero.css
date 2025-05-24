@@ -1,0 +1,26 @@
+@media (max-width: 768px) {
+  .hero-section {
+    text-align: center;
+  }
+
+  .watch-image {
+    width: 90% !important;
+  }
+
+  .hero-text {
+    font-size: 1.2rem !important;
+  }
+  .limited-edition-section {
+    padding-bottom: 0px; /* adjust as needed */
+  }
+  .carousel-indicators {
+    margin-bottom: -3rem;
+  }
+}
+
+.limited-edition-section {
+  /* min-height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
